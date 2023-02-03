@@ -5,7 +5,7 @@ import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Notification from './Notification/Notification';
 import Statistics from './Statistics/Statistics';
 
-const App = () => {
+export const App = () => {
   const [optionsName, setOptionsName] = useState({
     good: 0,
     neutral: 0,
@@ -54,5 +54,3 @@ const App = () => {
     </>
   );
 };
-
-export default App;
